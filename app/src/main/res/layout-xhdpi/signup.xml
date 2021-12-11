@@ -123,6 +123,7 @@
             app:layout_constraintTop_toBottomOf="@id/IconNewPass" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:textAllCaps="false"
             android:id="@+id/ButtonContinue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -18,4 +18,8 @@ public class Login extends Activity {
         startActivity(intent);
     }
 
+    public void IntentForgotPassword(View view) {
+        Intent intent = new Intent(Login.this, ForgotPassword.class);
+        startActivity(intent);
+    }
 }

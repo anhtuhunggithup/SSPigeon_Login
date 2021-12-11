@@ -11,4 +11,8 @@
     <string name="ConfirmNewPassword">Confirm New Password</string>
     <string name="Continue">Continue</string>
     <string name="JoinedUsBefore">Joined us before?</string>
+    <string name="ForgotPassWord">Forgot \nPassword?</string>
+    <string name="ForgotPasswordMessage">Don\'t worry! It happens. Please enter the \naddress associated with your account.</string>
+    <string name="EmailAndMobile">Email ID / Mobile number</string>
+    <string name="Submit">Submit</string>
 </resources>

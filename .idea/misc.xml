@@ -3,7 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout-xhdpi/forgot_password.xml" value="0.36041666666666666" />
+        <entry key="app/src/main/res/layout-xhdpi/forgot_password.xml" value="0.5" />
         <entry key="app/src/main/res/layout-xhdpi/login.xml" value="0.5" />
         <entry key="app/src/main/res/layout-xhdpi/signup.xml" value="0.19603825136612021" />
         <entry key="app/src/main/res/layout-xxhdpi/forgot_password.xml" value="0.36041666666666666" />

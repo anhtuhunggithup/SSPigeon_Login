@@ -25,6 +25,11 @@
             android:exported="true"
             android:theme="@style/AppTheme" />
 
+        <activity
+            android:name=".ForgotPassword"
+            android:exported="true"
+            android:theme="@style/AppTheme"/>
+
     </application>
 
 </manifest>
