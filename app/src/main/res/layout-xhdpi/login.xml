@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.85">
+
+        <ImageView
+            android:id="@+id/LoginLogo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/logo_login"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:includeFontPadding="false"
+            android:text="@string/Login"
+            android:textColor="@color/TextColorMain"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/LoginLogo" />
+
+        <ImageView
+            android:id="@+id/IconEmail"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="6dp"
+            android:src="@drawable/ic_alternate_email_login"
+            app:layout_constraintBottom_toBottomOf="@+id/InputEmail"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/InputEmail" />
+
+        <EditText
+            android:fontFamily="@font/brandon_med"
+            android:id="@+id/InputEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/ColorHint"
+            android:hint="@string/EmailId"
+            android:inputType="text"
+            android:textColorHint="@color/TextColorHint"
+            android:textSize="35px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/IconEmail"
+            app:layout_constraintTop_toBottomOf="@id/Title" />
+
+        <ImageView
+            android:id="@+id/IconPass"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="6dp"
+            android:src="@drawable/ic_lock_login"
+            app:layout_constraintBottom_toBottomOf="@+id/InputPass"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/InputPass" />
+
+        <EditText
+            android:fontFamily="@font/brandon_med"
+            android:drawableRight="@drawable/ic_visibility_login"
+            android:id="@+id/InputPass"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/ColorHint"
+            android:hint="@string/Password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/TextColorHint"
+            android:textSize="35px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/IconEmail"
+            app:layout_constraintTop_toBottomOf="@id/InputEmail" />
+
+        <TextView
+            android:id="@+id/ForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/brandon_med"
+            android:text="@string/ForgotPassword"
+            android:textColor="@color/ColorMain"
+            android:textSize="35px"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/InputPass" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ButtonLogin"
+            android:textColor="#ffffff"
+            android:text="@string/Login"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_button_login"
+            app:layout_constraintTop_toBottomOf="@+id/ForgotPassword" />
+
+        <LinearLayout
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/brandon_med"
+                android:text="@string/NewLog"
+                android:textColor="@color/TextColorHint"
+                android:textSize="35px"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ButtonLogin" />
+
+            <TextView
+                android:id="@+id/buttonRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/brandon_med"
+                android:text="@string/Register"
+                android:textColor="@color/ColorMain"
+                android:textSize="35px"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView2"
+                app:layout_constraintTop_toBottomOf="@+id/ButtonLogin" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
