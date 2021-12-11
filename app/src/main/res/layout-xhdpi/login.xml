@@ -2,8 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:background="#ffffff"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ffffff">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/Content"
@@ -50,7 +50,6 @@
             app:layout_constraintTop_toTopOf="@+id/InputEmail" />
 
         <EditText
-            android:fontFamily="@font/brandon_med"
             android:id="@+id/InputEmail"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -60,6 +59,7 @@
             android:hint="@string/EmailId"
             android:inputType="text"
             android:textColorHint="@color/TextColorHint"
+            android:textCursorDrawable="@android:drawable/dark_header"
             android:textSize="35px"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/IconEmail"
@@ -78,17 +78,17 @@
             app:layout_constraintTop_toTopOf="@+id/InputPass" />
 
         <EditText
-            android:fontFamily="@font/brandon_med"
-            android:drawableRight="@drawable/ic_visibility_login"
             android:id="@+id/InputPass"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/ColorHint"
+            android:drawableRight="@drawable/ic_visibility_login"
             android:hint="@string/Password"
             android:inputType="textPassword"
             android:textColorHint="@color/TextColorHint"
+            android:textCursorDrawable="@android:drawable/dark_header"
             android:textSize="35px"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/IconEmail"
@@ -108,12 +108,12 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/ButtonLogin"
-            android:textColor="#ffffff"
-            android:text="@string/Login"
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:background="@drawable/bg_button_login"
+            android:text="@string/Login"
+            android:textColor="#ffffff"
             app:layout_constraintTop_toBottomOf="@+id/ForgotPassword" />
 
         <LinearLayout
