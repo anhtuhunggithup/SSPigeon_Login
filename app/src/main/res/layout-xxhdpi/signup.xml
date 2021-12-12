@@ -78,14 +78,14 @@
             app:layout_constraintTop_toTopOf="@+id/InputNewPass" />
 
         <EditText
+            android:drawableRight="@drawable/ic_visibility_login"
             android:id="@+id/InputNewPass"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:backgroundTint="@color/ColorHint"
-            android:drawableRight="@drawable/ic_visibility_login"
-            android:hint="@string/NewPassword"
+            android:hint="@string/Password"
             android:inputType="textPassword"
             android:textColorHint="@color/TextColorHint"
             android:textCursorDrawable="@android:drawable/dark_header"
