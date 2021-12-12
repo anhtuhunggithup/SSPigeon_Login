@@ -15,4 +15,6 @@
     <string name="ForgotPasswordMessage">Don\'t worry! It happens. Please enter the \naddress associated with your account.</string>
     <string name="EmailAndMobile">Email ID / Mobile number</string>
     <string name="Submit">Submit</string>
+    <string name="UserName">User Name</string>
+    <string name="Mobile">Mobile</string>
 </resources>
