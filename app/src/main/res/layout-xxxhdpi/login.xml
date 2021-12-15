@@ -136,9 +136,7 @@
                 android:fontFamily="@font/brandon_med"
                 android:text="@string/NewLog"
                 android:textColor="@color/TextColorHint"
-                android:textSize="65px"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ButtonLogin" />
+                android:textSize="65px"/>
 
             <TextView
                 android:onClick="IntentSignUp"
@@ -149,10 +147,7 @@
                 android:fontFamily="@font/brandon_med"
                 android:text="@string/Register"
                 android:textColor="@color/ColorMain"
-                android:textSize="65px"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/textView2"
-                app:layout_constraintTop_toBottomOf="@+id/ButtonLogin" />
+                android:textSize="65px"/>
 
         </LinearLayout>
 

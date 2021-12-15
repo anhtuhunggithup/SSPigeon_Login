@@ -17,4 +17,8 @@
     <string name="Submit">Submit</string>
     <string name="UserName">User Name</string>
     <string name="Mobile">Mobile</string>
+    <string name="EnterOtp">Enter OTP</string>
+    <string name="MessageOtp">An 4 digit code has been sent to \nPhone number</string>
+    <string name="Resend">Resend</string>
+    <string name="DidNotReceiveTheOtp">Didn\'t receive the OTP?</string>
 </resources>

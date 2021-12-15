@@ -9,14 +9,17 @@
         <entry key="app/src/main/res/layout-xhdpi/forgot_password.xml" value="0.33" />
         <entry key="app/src/main/res/layout-xhdpi/information_signup.xml" value="0.2703125" />
         <entry key="app/src/main/res/layout-xhdpi/login.xml" value="0.22" />
+        <entry key="app/src/main/res/layout-xhdpi/phone_otp.xml" value="0.5" />
         <entry key="app/src/main/res/layout-xhdpi/signup.xml" value="0.33" />
         <entry key="app/src/main/res/layout-xhdpi/signup_information.xml" value="0.36041666666666666" />
         <entry key="app/src/main/res/layout-xxhdpi/forgot_password.xml" value="0.36041666666666666" />
         <entry key="app/src/main/res/layout-xxhdpi/login.xml" value="0.33" />
+        <entry key="app/src/main/res/layout-xxhdpi/phone_otp.xml" value="0.32037037037037036" />
         <entry key="app/src/main/res/layout-xxhdpi/signup.xml" value="0.259963768115942" />
         <entry key="app/src/main/res/layout-xxhdpi/signup_information.xml" value="0.36041666666666666" />
         <entry key="app/src/main/res/layout-xxxhdpi/forgot_password.xml" value="0.25" />
         <entry key="app/src/main/res/layout-xxxhdpi/login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-xxxhdpi/phone_otp.xml" value="0.32037037037037036" />
         <entry key="app/src/main/res/layout-xxxhdpi/signup.xml" value="0.2703125" />
         <entry key="app/src/main/res/layout-xxxhdpi/signup_information.xml" value="0.36041666666666666" />
       </map>

@@ -149,9 +149,7 @@
                 android:fontFamily="@font/brandon_med"
                 android:text="@string/JoinedUsBefore"
                 android:textColor="@color/TextColorHint"
-                android:textSize="35px"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/ButtonLogin" />
+                android:textSize="35px"/>
 
             <TextView
                 android:onClick="IntentLogin"
@@ -162,10 +160,7 @@
                 android:fontFamily="@font/brandon_med"
                 android:text="@string/Login"
                 android:textColor="@color/ColorMain"
-                android:textSize="35px"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/textView2"
-                app:layout_constraintTop_toBottomOf="@+id/ButtonLogin" />
+                android:textSize="35px"/>
 
         </LinearLayout>
 
