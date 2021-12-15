@@ -84,7 +84,7 @@
                 android:fontFamily="@font/brandon_med"
                 android:text="@string/DidNotReceiveTheOtp"
                 android:textColor="@color/TextColorHint"
-                android:textSize="35px" />
+                android:textSize="50px" />
 
             <TextView
                 android:id="@+id/buttonResend"
@@ -94,7 +94,7 @@
                 android:fontFamily="@font/brandon_med"
                 android:text="@string/Resend"
                 android:textColor="@color/ColorMain"
-                android:textSize="35px" />
+                android:textSize="50px" />
 
         </LinearLayout>
 
