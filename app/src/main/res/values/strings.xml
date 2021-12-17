@@ -22,4 +22,29 @@
     <string name="Resend">Resend</string>
     <string name="DidNotReceiveTheOtp">Didn\'t receive the OTP?</string>
     <string name="ResetPassword">Reset \nPassword</string>
+    <string name="Profile">Profile</string>
+    <string name="Month">Month</string>
+    <string name="Day">Day</string>
+    <string name="Year">Year</string>
+    <string name="Phone">Phone</string>
+    <string name="Gender">Gender</string>
+    <string-array name="Genders">
+        <item>none</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="Months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
 </resources>

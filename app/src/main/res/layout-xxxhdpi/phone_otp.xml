@@ -14,7 +14,7 @@
         app:layout_constraintHeight_percent="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintWidth_percent="0.85">
+        app:layout_constraintWidth_percent="0.82">
 
         <ImageView
             android:id="@+id/LoginLogo"
@@ -63,9 +63,9 @@
             android:itemBackground="#f1f6f6"
             android:textColor="@color/TextColorMain"
             app:itemCount="6"
-            app:itemHeight="52dp"
+            app:itemHeight="50dp"
             app:itemRadius="5dp"
-            app:itemWidth="52dp"
+            app:itemWidth="50dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/Message"

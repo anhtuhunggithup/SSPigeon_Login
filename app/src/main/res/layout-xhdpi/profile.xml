@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/Content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.85">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:onClick="IntentLogin"
+            android:src="@drawable/ic_back"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHeight_percent="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/LoginLogo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/logo_profile"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:includeFontPadding="false"
+            android:text="@string/Profile"
+            android:textColor="@color/TextColorMain"
+            android:textSize="70px"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/LoginLogo" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/InputUserNameLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/UserName"
+            android:textColorHint="@color/TextColorHint"
+            app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
+            app:boxStrokeWidth="1dp"
+            app:hintTextColor="@color/TextColorHint"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title"
+            app:startIconDrawable="@drawable/ic_person_profile"
+            app:startIconTint="@color/TextColorHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/InputUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/TextColorMain"
+                android:textCursorDrawable="@android:drawable/dark_header"
+                android:textSize="35px" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/InputPhoneLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Phone"
+            android:textColorHint="@color/TextColorHint"
+            app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
+            app:boxStrokeWidth="1dp"
+            app:hintTextColor="@color/TextColorHint"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/InputUserNameLayout"
+            app:startIconDrawable="@drawable/ic_phone_signup"
+            app:startIconTint="@color/TextColorHint">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/InputPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/TextColorMain"
+                android:textCursorDrawable="@android:drawable/dark_header"
+                android:textSize="35px" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:endIconMode="dropdown_menu"
+            android:id="@+id/MonthLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Month"
+            android:textColorHint="@color/TextColorHint"
+            app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
+            app:boxStrokeWidth="1dp"
+            app:endIconTint="@color/Icon"
+            app:hintTextColor="@color/TextColorHint"
+            app:layout_constraintBottom_toBottomOf="@+id/DayLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/InputPhoneLayout"
+            app:layout_constraintWidth_percent="0.45">
+
+            <AutoCompleteTextView
+                android:id="@+id/Month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusableInTouchMode="false"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingStart="10dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/TextColorMain"
+                android:textCursorDrawable="@android:drawable/dark_header"
+                android:textSize="35px" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:layout_constraintEnd_toStartOf="@id/YearLayout"
+            app:layout_constraintWidth_percent="0.2"
+            android:id="@+id/DayLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Day"
+            android:textColorHint="@color/TextColorHint"
+            app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
+            app:boxStrokeWidth="1dp"
+            app:hintTextColor="@color/TextColorHint"
+            app:layout_constraintStart_toEndOf="@id/MonthLayout"
+            app:layout_constraintTop_toBottomOf="@id/InputPhoneLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:paddingStart="10dp"
+                android:id="@+id/Day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/TextColorMain"
+                android:textCursorDrawable="@android:drawable/dark_header"
+                android:textSize="35px" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintWidth_percent="0.3"
+            android:id="@+id/YearLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Year"
+            android:textColorHint="@color/TextColorHint"
+            app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
+            app:boxStrokeWidth="1dp"
+            app:hintTextColor="@color/TextColorHint"
+            app:layout_constraintTop_toBottomOf="@id/InputPhoneLayout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:paddingStart="10dp"
+                android:id="@+id/Year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/TextColorMain"
+                android:textCursorDrawable="@android:drawable/dark_header"
+                android:textSize="35px" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:endIconTint="@color/Icon"
+            app:endIconMode="dropdown_menu"
+            android:id="@+id/GenderLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/Gender"
+            android:textColorHint="@color/TextColorHint"
+            app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
+            app:boxStrokeWidth="1dp"
+            app:hintTextColor="@color/TextColorHint"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/MonthLayout">
+
+            <AutoCompleteTextView
+                android:focusableInTouchMode="false"
+                android:paddingStart="10dp"
+                android:id="@+id/Gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/TextColorMain"
+                android:textCursorDrawable="@android:drawable/dark_header"
+                android:textSize="35px" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/ButtonContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_button_login"
+            android:text="@string/Continue"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            app:layout_constraintTop_toBottomOf="@+id/GenderLayout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
