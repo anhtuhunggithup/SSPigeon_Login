@@ -2,12 +2,8 @@ package app.com.sspigeon;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.AndroidException;
-import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 public class Profile extends Activity {
 
@@ -15,7 +11,7 @@ public class Profile extends Activity {
     String[] months, genders;
 
     @Override
-    public void onCreate(Bundle savedInstanceState){
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile);
         Begin();
@@ -23,19 +19,19 @@ public class Profile extends Activity {
         CreateMonth();
     }
 
-    private void Begin(){
+    private void Begin() {
         textMonth = (AutoCompleteTextView) findViewById(R.id.Month);
         textGender = (AutoCompleteTextView) findViewById(R.id.Gender);
     }
 
-    private void CreateMonth(){
+    private void CreateMonth() {
         months = getResources().getStringArray(R.array.Months);
         ArrayAdapter<String> monthAdapter = new ArrayAdapter<>(Profile.this, R.layout.support_simple_spinner_dropdown_item, months);
         textMonth.setDropDownHeight(400);
         textMonth.setAdapter(monthAdapter);
     }
 
-    private void CreateGender(){
+    private void CreateGender() {
         genders = getResources().getStringArray(R.array.Genders);
         ArrayAdapter<String> monthAdapter = new ArrayAdapter<>(Profile.this, R.layout.support_simple_spinner_dropdown_item, genders);
         textGender.setAdapter(monthAdapter);
