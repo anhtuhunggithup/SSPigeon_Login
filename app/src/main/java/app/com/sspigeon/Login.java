@@ -10,7 +10,7 @@ public class Login extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.phone_otp);
+        setContentView(R.layout.login);
     }
 
     public void IntentSignUp(View view) {

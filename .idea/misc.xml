@@ -4,11 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_email_login.xml" value="0.3765625" />
+        <entry key="app/src/main/res/drawable/ic_logo_reset_password.xml" value="0.24425675675675676" />
         <entry key="app/src/main/res/drawable/ic_person_signup.xml" value="0.3765625" />
         <entry key="app/src/main/res/drawable/ic_phone_signup.xml" value="0.3765625" />
         <entry key="app/src/main/res/layout-xhdpi/forgot_password.xml" value="0.33" />
         <entry key="app/src/main/res/layout-xhdpi/information_signup.xml" value="0.2703125" />
-        <entry key="app/src/main/res/layout-xhdpi/login.xml" value="0.22" />
+        <entry key="app/src/main/res/layout-xhdpi/login.xml" value="0.5" />
         <entry key="app/src/main/res/layout-xhdpi/phone_otp.xml" value="0.25" />
         <entry key="app/src/main/res/layout-xhdpi/signup.xml" value="0.33" />
         <entry key="app/src/main/res/layout-xhdpi/signup_information.xml" value="0.36041666666666666" />
