@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 
-public class Profile extends Activity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Profile extends AppCompatActivity {
 
     AutoCompleteTextView month, gender;
     String[] months, genders;

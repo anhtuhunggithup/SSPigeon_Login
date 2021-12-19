@@ -109,14 +109,12 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.hbb20.CountryCodePicker
-            android:layout_marginTop="5dp"
             android:gravity="center"
+            android:layout_marginTop="5dp"
             android:background="@drawable/bg_country_picker"
             app:ccp_showNameCode="false"
-            app:ccp_showFullName="false"
             app:ccp_showPhoneCode="false"
             android:id="@+id/CountryLayout"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="@+id/InputPhoneLayout"
@@ -126,7 +124,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/MonthLayout"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="20dp"
@@ -134,8 +132,6 @@
             android:textColorHint="@color/TextColorHint"
             app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
             app:boxStrokeWidth="1dp"
-            app:endIconMode="dropdown_menu"
-            app:endIconTint="@color/Icon"
             app:hintTextColor="@color/TextColorHint"
             app:layout_constraintBottom_toBottomOf="@+id/DayLayout"
             app:layout_constraintStart_toStartOf="parent"
@@ -224,7 +220,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/GenderLayout"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -232,8 +228,6 @@
             android:textColorHint="@color/TextColorHint"
             app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
             app:boxStrokeWidth="1dp"
-            app:endIconMode="dropdown_menu"
-            app:endIconTint="@color/Icon"
             app:hintTextColor="@color/TextColorHint"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/MonthLayout">
