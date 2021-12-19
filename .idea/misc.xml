@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/bg_countrypicker.xml" value="0.3765625" />
         <entry key="app/src/main/res/drawable/ic_arrow_drop_down.xml" value="0.3765625" />
         <entry key="app/src/main/res/drawable/ic_email_login.xml" value="0.3765625" />
         <entry key="app/src/main/res/drawable/ic_logo_reset_password.xml" value="0.24425675675675676" />
@@ -12,7 +13,7 @@
         <entry key="app/src/main/res/layout-xhdpi/information_signup.xml" value="0.5" />
         <entry key="app/src/main/res/layout-xhdpi/login.xml" value="0.33" />
         <entry key="app/src/main/res/layout-xhdpi/phone_otp.xml" value="0.2" />
-        <entry key="app/src/main/res/layout-xhdpi/profile.xml" value="0.45526315789473687" />
+        <entry key="app/src/main/res/layout-xhdpi/profile.xml" value="0.5" />
         <entry key="app/src/main/res/layout-xhdpi/reset_password.xml" value="0.25" />
         <entry key="app/src/main/res/layout-xhdpi/signup.xml" value="0.33" />
         <entry key="app/src/main/res/layout-xhdpi/signup_information.xml" value="0.36041666666666666" />
@@ -20,7 +21,7 @@
         <entry key="app/src/main/res/layout-xxhdpi/information_signup.xml" value="0.36041666666666666" />
         <entry key="app/src/main/res/layout-xxhdpi/login.xml" value="0.33" />
         <entry key="app/src/main/res/layout-xxhdpi/phone_otp.xml" value="0.33" />
-        <entry key="app/src/main/res/layout-xxhdpi/profile.xml" value="0.1752786220871327" />
+        <entry key="app/src/main/res/layout-xxhdpi/profile.xml" value="0.33" />
         <entry key="app/src/main/res/layout-xxhdpi/reset_password.xml" value="0.23378378378378378" />
         <entry key="app/src/main/res/layout-xxhdpi/signup.xml" value="0.259963768115942" />
         <entry key="app/src/main/res/layout-xxhdpi/signup_information.xml" value="0.36041666666666666" />
@@ -28,7 +29,7 @@
         <entry key="app/src/main/res/layout-xxxhdpi/information_signup.xml" value="0.23378378378378378" />
         <entry key="app/src/main/res/layout-xxxhdpi/login.xml" value="0.25" />
         <entry key="app/src/main/res/layout-xxxhdpi/phone_otp.xml" value="0.25" />
-        <entry key="app/src/main/res/layout-xxxhdpi/profile.xml" value="0.13236419280795717" />
+        <entry key="app/src/main/res/layout-xxxhdpi/profile.xml" value="0.25" />
         <entry key="app/src/main/res/layout-xxxhdpi/reset_password.xml" value="0.25" />
         <entry key="app/src/main/res/layout-xxxhdpi/signup.xml" value="0.2703125" />
         <entry key="app/src/main/res/layout-xxxhdpi/signup_information.xml" value="0.36041666666666666" />
