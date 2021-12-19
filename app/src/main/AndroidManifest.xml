@@ -28,14 +28,12 @@
         <activity
             android:name=".ForgotPassword"
             android:exported="true"
-            android:theme="@style/AppTheme">
-        </activity>
+            android:theme="@style/AppTheme"></activity>
 
         <activity
             android:name=".Profile"
             android:exported="true"
-            android:theme="@style/AppTheme">
-        </activity>
+            android:theme="@style/AppTheme"></activity>
 
     </application>
 

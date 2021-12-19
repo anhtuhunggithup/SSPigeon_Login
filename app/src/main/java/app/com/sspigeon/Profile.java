@@ -1,7 +1,5 @@
 package app.com.sspigeon;
 
-import android.app.Activity;
-import android.media.Image;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
