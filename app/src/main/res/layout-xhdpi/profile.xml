@@ -50,23 +50,51 @@
             app:layout_constraintTop_toBottomOf="@id/LoginLogo" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/InputUserNameLayout"
+            app:layout_constraintWidth_percent="0.4875"
+            android:id="@+id/InputFirstNameLayout"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:hint="@string/UserName"
+            android:hint="@string/FirstName"
             android:textColorHint="@color/TextColorHint"
             app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
             app:boxStrokeWidth="1dp"
             app:hintTextColor="@color/TextColorHint"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/Title"
-            app:startIconDrawable="@drawable/ic_person_profile"
-            app:startIconTint="@color/TextColorHint">
+            app:layout_constraintTop_toBottomOf="@id/Title">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/InputUserName"
+                android:id="@+id/InputFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/TextColorMain"
+                android:textCursorDrawable="@android:drawable/dark_header"
+                android:textSize="35px" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/InputLastNameLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/LastName"
+            android:textColorHint="@color/TextColorHint"
+            app:boxStrokeColor="@color/mtrl_textinput_default_box_stroke_color"
+            app:boxStrokeWidth="1dp"
+            app:hintTextColor="@color/TextColorHint"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/Title"
+            app:layout_constraintWidth_percent="0.4875">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/InputLastName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:imeOptions="actionDone"
@@ -91,7 +119,7 @@
             app:boxStrokeWidth="1dp"
             app:hintTextColor="@color/TextColorHint"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/InputUserNameLayout"
+            app:layout_constraintTop_toBottomOf="@id/InputFirstNameLayout"
             app:layout_constraintWidth_percent="0.725">
 
             <com.google.android.material.textfield.TextInputEditText

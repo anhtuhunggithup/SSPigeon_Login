@@ -28,6 +28,8 @@
     <string name="Year">Year</string>
     <string name="Phone">Phone</string>
     <string name="Gender">Gender</string>
+    <string name="LastName">Last Name</string>
+    <string name="FirstName">First Name</string>
     <string-array name="Genders">
         <item>none</item>
         <item>Male</item>
